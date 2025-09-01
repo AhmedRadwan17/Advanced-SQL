@@ -13,7 +13,7 @@ create table m (id int , name varchar(10))
 
 create clustered index clu_pk on m (id)
 
--- non clustered index --> Helping in search it is fast search in our system\
+-- non clustered index --> Helping in search it is fast search in our system
 
 create nonclustered index non_pk on dbo.m(name)
 
