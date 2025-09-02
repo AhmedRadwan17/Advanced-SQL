@@ -44,7 +44,7 @@ update sp_stud  set age = 20 where sidd = 20
 
 
 -- Delete 
-Delete from sp_stud (sname,slastname,sidd,age)  where sidd = 20   
+Delete from sp_stud where sidd = 20   
 -- OutPut Error as we delete from multi tables
 select @@ERROR
 select ERROR_LINE()
@@ -52,4 +52,5 @@ select ERROR_LINE()
 
 -- Drop  Database
 Drop view dbo.Ahmed
+
 
