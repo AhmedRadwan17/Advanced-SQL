@@ -50,7 +50,8 @@ select @@ERROR
 select ERROR_LINE()
 
 
--- Drop  Database
+-- Drop  View
 Drop view dbo.Ahmed
+
 
 
