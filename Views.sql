@@ -17,7 +17,7 @@ select * from get_name2
 -- to show Definion table
 sp_helptext 'get_name2'
 
--- DML [insert , update , Drop]
+-- DML [insert , update , Delete]
 
 create view sp_stud (sname, slastname ,sidd, dep)
 as select st_fname , st_lname , st_id ,  Dept_Name from Student s inner join Department d On d.Dept_Id = St_Id
@@ -52,3 +52,4 @@ select ERROR_LINE()
 
 -- Drop  Database
 Drop view dbo.Ahmed
+
