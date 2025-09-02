@@ -1,5 +1,4 @@
--- Views
--- Seaurity
+-- Views --> as it improve your Seaurity in your data
  
  --  Creating
 create view get_name with encryption as select st_fname from Student
@@ -52,6 +51,7 @@ select ERROR_LINE()
 
 -- Drop  View
 Drop view dbo.Ahmed
+
 
 
 
