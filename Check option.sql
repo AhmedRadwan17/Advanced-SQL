@@ -7,6 +7,5 @@ select * from v6
 
 insert into v6 (st_id,st_fname,St_Lname,st_address ) values (210,'samy' ,'ahmed' ,'Mansoura')
   
---ERROR AS WE ENTER DATA OUT OF THE RANGE
+-- ERROR AS WE ENTER DATA OUT OF THE RANGE
 insert into v6 (st_id,st_fname,St_Lname,st_address ) values (140,'samy' ,'ahmed' ,'asaaasas')
-
