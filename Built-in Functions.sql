@@ -1,5 +1,7 @@
                        -- Bult In Functions
 
+-- DateAdd
+SELECT DATEADD(DAY, 1, '2025-09-20')  -- النتيجة: 2025-09-21 -->  DATEADD ( datepart , number , date )
 
 -- isnull      
 select isnull(st_fname,'') from Student
